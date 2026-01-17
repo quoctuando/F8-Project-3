@@ -5,13 +5,17 @@
 :root {
     --section-bg-color: #10375c;
     --services-bg-color: #ffffff;
+    --works-bg-color: #f6fbff;
     --btn-bg-color: #2e80ce;
     --icon-bg-color: #eff6fd;
     --active-icon-icon-bg-color: #2e80ce;
+    --white-bg-color: #ffffff;
     --text-white: #ffffff;
     --text-light: #c9d2da;
     --text-dark-blue: #10375c;
     --text-slate-gray: #575f66;
+    --border-color: #eaf6ff;
+    --active-border-color: #2e80ce;
 }
 
 html {
@@ -275,4 +279,63 @@ a {
 
 .services__action {
     margin-top: 55px;
+}
+
+/* how it works */
+.works {
+    padding: 100px 0;
+    background-color: var(--works-bg-color);
+}
+
+.works__desc {
+    width: 40%;
+    margin-top: 18px;
+}
+
+.works__list {
+    display: flex;
+    margin-top: 86px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.works__item {
+    border: 16px solid var(--border-color);
+    border-radius: 4px;
+    background-color: var(--border-color);
+    transition: 0.25s;
+}
+
+.works__item:hover {
+    transform: translateY(-16px);
+    --border-color: var(--active-border-color);
+}
+
+.works__item:hover .works-item__link {
+    color: var(--active-border-color);
+    font-weight: 400;
+}
+
+.works__item--wrap {
+    padding: 43px 42px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: var(--white-bg-color);
+}
+
+.works-item__title {
+    margin-top: 18px;
+    font-size: 1.6rem;
+    color: var(--text-dark-blue);
+    font-weight: 600;
+    line-height: 1.75;
+}
+
+.works-item__desc {
+    margin-top: 28px;
+}
+
+.works-item__link {
+    display: inline-block;
+    margin-top: 18px;
 }
