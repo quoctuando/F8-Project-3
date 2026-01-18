@@ -610,23 +610,143 @@ a {
 }
 
 /* Appointment */
-.appointment{
+.appointment {
     margin-top: 170px;
     margin-bottom: 170px;
 }
-.appointment__inner{
+
+.appointment__inner {
     padding-top: 100px;
     padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #F6FBFF;
+    background-color: #f6fbff;
 }
-.appointment__desc{
+
+.appointment__desc {
     margin-top: 38px;
     width: 52.7%;
     text-align: center;
 }
-.appointment__link{
+
+.appointment__link {
     margin-top: 38px;
+}
+
+/* Footer */
+.footer{
+    padding-top: 100px;
+    background-color: #10375C;
+}
+
+.footer__inner{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #406181;
+}
+
+.footer__col{
+    width: 15%;
+}
+
+.footer__col:first-child{
+    width: 28.72%;
+}
+
+.footer__col:last-child{
+    width: 28.4%;
+}
+
+.footer-nav+.footer-nav{
+    margin-top: 28px;
+}
+
+.footer__desc{
+    margin-top: 21px;
+    font-size: 1.6rem;
+    color: #A9B3BB;
+    line-height: 1.75;
+}
+
+.footer__heading{
+    font-size: 1.6rem;
+    color: var(--text-white);
+    font-weight: 600;
+    line-height: 1.75;
+}
+
+.footer__link{
+    font-size: 1.4rem;
+    color: #A9B3BB;
+    font-weight: 400;
+    line-height: 1.85;
+}
+
+.footer__list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.footer__icon-wrap{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer__subscribe{
+    margin-top: 28px;
+}
+
+.footer__text{
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color: #A9B3BB;
+    font-weight: 400;
+    line-height: 1.85;
+}
+
+.subcribe-form{
+    margin-top: 10px;
+    display: flex;
+    gap: 12px;
+}
+
+.subcribe-input{
+    width: 212px;
+    height: 46px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid #406181;
+    padding-left: 10px;
+    font-size: 1.4rem;
+    color: #A9B3BB;
+    font-weight: 400;
+    line-height: 1.85;
+}
+
+.footer__btn{
+    width: 108px;
+    height: 46px;
+    border-radius: 4px;
+    background-color: #2E80CE;
+    border: none;
+    font-size: 1.4rem;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 1.85;
+}
+
+.footer__bottom{
+    padding-top: 28px;
+    padding-bottom: 42px;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #A9B3BB;
+    font-weight: 400;
+    line-height: 1.85;
 }
