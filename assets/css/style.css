@@ -608,3 +608,25 @@ a {
 .blog-card:hover .blog-card__link {
     color: #2e80ce;
 }
+
+/* Appointment */
+.appointment{
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+.appointment__inner{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6FBFF;
+}
+.appointment__desc{
+    margin-top: 38px;
+    width: 52.7%;
+    text-align: center;
+}
+.appointment__link{
+    margin-top: 38px;
+}
